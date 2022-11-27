@@ -1,0 +1,104 @@
+.work-container{
+    max-width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    background-image: url(https://wallpapercave.com/dwp1x/wp11543643.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+    
+}
+.project-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    color: antiquewhite;
+}
+
+.project-container{
+    max-width: 1140px;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  
+}
+
+.project-card{
+    background: beige;
+    padding: 1.2rem 1rem;
+   
+}
+.project-card img{
+    width: 100%;
+    height: 40vh;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;      
+}
+.project-card img:hover{
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.project-title{
+    color: rgb(108, 29, 29);
+    padding: 1rem 0;
+    font-size: 25px;
+}
+.prod-details{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    color: rgb(108, 68, 145);
+}
+.prod-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    color: rgb(108, 68, 145);
+}
+.prod-btns{
+    background: rgb(21, 195, 64);
+    font-size: 15px;
+    color:rgb(55, 171, 40);
+    border-radius: 7px;
+    transition: all 0.2s;
+    position: relative;
+    padding: 7px 7px;
+    position: relative;
+    top: 0;
+    cursor: pointer; 
+    border: 1px solid rgb(224, 134, 15);
+    background-color: rgb(41, 173, 36);
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-left: 6rem;
+    margin-top: 5px;
+    margin-bottom: -6px;
+   
+}
+
+
+
+
+@media screen and (max-width:740px) {
+    .project-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    .prod-btns{
+        margin-left: 9rem;
+        margin-top: 5px;
+        margin-bottom: -6px;
+       
+    }
+}
